@@ -1,0 +1,25 @@
+﻿<Window x:Class="VN.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VN"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="/rendernet_image.png" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="Зов Древних Земель" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name = "LoginUser" HorizontalAlignment="Center" Margin="0,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="29"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,112,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="White"/>
+        <PasswordBox x:Name="PasswordUser" HorizontalAlignment="Center" Margin="0,224,0,0" VerticalAlignment="Top" Width="200" Height="29"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="White" Height="21"><Run Text="Password"/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="ButtonLogin" Content="Log in" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top" Height="29" Width="110" Click="ButtonLogin_Click"/>
+
+    </Grid>
+</Window>

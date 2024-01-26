@@ -1,0 +1,24 @@
+﻿<Window x:Class="VN.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VN"
+        mc:Ignorable="d"
+        Title="History" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="/rendernet_image (1).png" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" Text="Акт 1: Встреча с Путеводителем" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,94,0,0" TextWrapping="Wrap" Text="Главный герой, молодой исследователь по имени Эларион, случайно находит древний свиток, который содержит карту к Забытым Землям – месту, где, по легендам, прячется сила, способная изменить ход истории." VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Foreground="White" Height="135" Width="740"/>
+        <Button x:Name="ButtonNext" Content="Продолжить" HorizontalAlignment="Center" Margin="0,379,0,0" VerticalAlignment="Top" Height="26" Width="122" Click="ButtonNext_Click"/>
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="VN.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VN"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="/rendernet_image (3).png" Margin="0,-50,0,49" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,155,0,0" TextWrapping="Wrap" Text="Эларион и Селена отправляются в путешествие по магическим лесам, забытым городам и древним храмам. На своем пути они встречают различных существ – от добрых эльфов до опасных чудовищ." VerticalAlignment="Top" Height="172" Width="716" FontSize="22" FontWeight="Bold" Foreground="White"/>
+        <Button x:Name="ButtonNext" Content="Продолжить" HorizontalAlignment="Center" Margin="0,376,0,0" VerticalAlignment="Top" Height="29" Width="133" Click="ButtonNext_Click"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Акт 2: Путешествие по Древним Землям" VerticalAlignment="Top" Height="65" Width="444" FontSize="22" FontWeight="Bold" Foreground="White" Margin="0,23,0,0" RenderTransformOrigin="0.534,0.206"/>
+
+
+    </Grid>
+</Window>

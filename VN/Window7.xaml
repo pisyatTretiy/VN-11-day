@@ -1,0 +1,30 @@
+﻿<Window x:Class="VN.Window7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VN"
+        mc:Ignorable="d"
+        Title="Window7" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="/4621886532.jpeg" Margin="0,-98,0,98" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,71,0,0" TextWrapping="Wrap" Text="После победы над темным волшебником Эларион и Селена решают остаться вместе, чтобы охранять Древние Земли от любых угроз, а мир снова наполняется светом и магией." VerticalAlignment="Top" Height="147" Width="664" FontSize="22" FontWeight="Bold" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.103"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.603"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Button x:Name="ButtonNext" Content="Продолжить" HorizontalAlignment="Center" Margin="0,376,0,0" VerticalAlignment="Top" Height="29" Width="133" Click="ButtonNext_Click"/>
+
+    </Grid>
+</Window>

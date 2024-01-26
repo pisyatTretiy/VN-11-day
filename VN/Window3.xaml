@@ -1,0 +1,21 @@
+﻿<Window x:Class="VN.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VN"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="/rendernet_image (2).png" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,118,0,0" TextWrapping="Wrap" Text="Встреча с таинственным путеводителем по имени Селена, эльфийкой с великим знанием о магии и древних загадках. Она расскажет ему о его судьбе и необходимости спасти мир от зловещего темного волшебника, который пытается завладеть древними секретами." VerticalAlignment="Top" Height="205" Width="628" FontSize="22" FontWeight="Bold" Foreground="White"/>
+        <Button x:Name="ButtonNext" Content="Продолжить" HorizontalAlignment="Center" Margin="0,369,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.499,0.629" Height="25" Width="115" Click="ButtonNext_Click"/>
+
+    </Grid>
+</Window>

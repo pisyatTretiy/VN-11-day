@@ -1,0 +1,22 @@
+﻿<Window x:Class="VN.Window8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VN"
+        mc:Ignorable="d"
+        Title="Window8" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="/7351063736.jpeg" Margin="0,-10,0,10" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,22,0,0" TextWrapping="Wrap" Text="Финал: Возвращение домой" VerticalAlignment="Top" FontSize="22" Foreground="White" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,96,0,0" TextWrapping="Wrap" Text="Эларион и Селена возвращаются домой как герои, их история становится легендой в мире магии и мифов. Они понимают, что даже после завершения своего приключения, новые опасности могут подстерегать мир, и они решают быть стражами мира и справедливости вместе." VerticalAlignment="Top" FontSize="22" Foreground="White" FontWeight="Bold" Height="161" Width="740"/>
+        <Button x:Name="ButtonNext" Content="Продолжить" HorizontalAlignment="Center" Margin="0,376,0,0" VerticalAlignment="Top" Height="29" Width="133" Click="ButtonNext_Click"/>
+
+    </Grid>
+</Window>
